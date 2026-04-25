@@ -1,0 +1,9 @@
+{
+  "name": "5 Day Bodybuilding Programme",
+  "short_name": "5 Day Lift",
+  "description": "A 5 day full-body bodybuilding programme with arms and shoulders focus.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#14131a",
+  "theme_color": "#14131a"
+}
