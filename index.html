@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#14131a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="5 Day Lift">
+  <title>5 Day Bodybuilding Programme</title>
+  <link rel="manifest" href="./manifest.json">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="app">
+    <section class="hero">
+      <div class="eyebrow">Full body • Arms & shoulders focus</div>
+      <h1>5 Day Bodybuilding Programme</h1>
+      <p>A lower-volume, higher-effort hypertrophy plan designed to fit into 45–60 minutes. Tick off exercises, use the rest timer, and keep the shoulder-arm forge glowing.</p>
+      <div class="stats">
+        <div class="stat"><strong>5</strong><span>sessions per week</span></div>
+        <div class="stat"><strong>2</strong><span>working sets mostly</span></div>
+        <div class="stat"><strong>0–2</strong><span>reps in reserve</span></div>
+      </div>
+    </section>
+
+    <nav class="tabs" id="tabs" aria-label="Workout days"></nav>
+    <div id="content"></div>
+  </main>
+
+  <div class="timer" aria-label="Rest timer">
+    <button onclick="setTimer(60)">60s</button>
+    <button onclick="setTimer(90)">90s</button>
+    <button onclick="setTimer(120)">120s</button>
+    <button class="primary" onclick="startTimer()">Start</button>
+    <button onclick="pauseTimer()">Pause</button>
+    <div class="display" id="timerDisplay">1:30</div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
